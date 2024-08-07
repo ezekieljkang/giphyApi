@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f8f8f7; /* Light gray background */
+  color: #333; /* Dark text color */
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #333;
+}
+
+input, button {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #007aff; /* Apple's blue color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0051a8; /* Darker blue for hover effect */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+button, input[type="text"] {
+  margin-top: 10px;
+}
+
+button:focus, input:focus {
+  border-color: #007aff; /* Highlight border on focus */
+}
+
+/* Specific Styles for Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+img {
+  border: none; /* Remove default image border */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
